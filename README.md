@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@esm/index.mjs';
+import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@v0.0.8-esm/index.mjs';
 ```
 
 #### HALF_PI
@@ -61,7 +61,7 @@ var bool = ( HALF_PI === 1.5707963267948966 );
 <body>
 <script type="module">
 
-import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@esm/index.mjs';
+import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@v0.0.8-esm/index.mjs';
 
 console.log( HALF_PI );
 // => 1.5707963267948966
