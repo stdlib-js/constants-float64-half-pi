@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-half-pi/tags). For example,
+
+```javascript
 import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@v0.1.0-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( HALF_PI === 1.5707963267948966 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@v0.1.0-deno/mod.js';
+import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@deno/mod.js';
 
 console.log( HALF_PI );
 // => 1.5707963267948966
