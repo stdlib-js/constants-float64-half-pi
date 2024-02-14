@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@deno/mod.js';
+import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@v0.2.0-deno/mod.js';
 ```
 
 #### HALF_PI
@@ -67,7 +67,7 @@ var bool = ( HALF_PI === 1.5707963267948966 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@deno/mod.js';
+import HALF_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-half-pi@v0.2.0-deno/mod.js';
 
 console.log( HALF_PI );
 // => 1.5707963267948966
